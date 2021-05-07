@@ -8,6 +8,7 @@ Tool or Guide  | Purpose
 [DotPeek (Windows)](https://www.jetbrains.com/decompiler/) | Same as above, just for windows.
 [Oxide/UMod](https://github.com/OxideMod/Oxide.Rust/releases) | Open source modding framework, and location for latest releases for Windows and Linux
 [Oxide/UMod Rust API Documentation](https://umod.org/documentation/games/rust) | Documentation for working with Umod in rust. 
+[Oxide/Umod Permissions System](https://umod.org/documentation/plugins/permissions) | Documentation for the permissions sytem Oxide creates for Rust.
 [Dotnet Framework (X-Platform)](https://dotnet.microsoft.com/download) | The Dotnet framework needed to create C# projects for rust. 
 [MSBuild (X-Platform)](https://github.com/dotnet/msbuild) | MSBuild for building your dotnet projects.
 [OmniSharp (VSCode)](https://github.com/OmniSharp/omnisharp-vscode) | JIT compiler and Intellisense for VSCode
@@ -102,6 +103,20 @@ touch my-new-plugin.cs
 
 Now you're ready to start developing a plugin. 
 
+## Oxide Permissions System
+
+Not the Permissions I setup on some of the commands above. It's important when developing plugins that if you're giving a user access to a specific command or functionality of the 
+plugin that you setup permissions for this. There are a lot of benefits to doing so but most importantly it allows you to granularly control the access to the plugins intentions. 
+For example if you were writing a plugin that made a web request to do something with the data it presents  you don't want to give everyone access to this, as they can just hammer 
+it with a macro or do nefarious things. See documentation around Umod in the links above to get a good feel for best practices. 
+
 ## Creating Rust plugin Assemblies for Extensions
 
 As of right now Wulf/Luke (creator of Umod) is not a proponent of writing extensions and with the release of the new umod underway i'll hold off for now... 
+
+
+## Final Thoughts
+
+I'll continue adding to this if I find relevant or important things or whatever feedback I get from others using it. Right now i'll keep it simple to hopefully help someone get on 
+their way to developing a plugin. 
+
