@@ -120,7 +120,7 @@ it with a macro or do nefarious things. See documentation around Umod in the lin
 
 As of right now Wulf/Luke (creator of Umod) is not a proponent of writing extensions and with the release of the new umod underway i'll hold off for now... 
 
-
+Here is an exampl extension you can reference if you decide you really need one:  [AutoKit by kwamaking](https://github.com/kwamaking/AutoKit)
 ## Final Thoughts
 
 I'll continue adding to this if I find relevant or important things or whatever feedback I get from others using it. Right now i'll keep it simple to hopefully help someone get on 
