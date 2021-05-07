@@ -111,10 +111,10 @@ Now you're ready to start developing a plugin.
 
 ## Oxide Permissions System
 
-Note the Permissions I setup on some of the commands above. It's important when developing plugins that if you're giving a user access to a specific command or functionality of the 
-plugin that you setup permissions for this. There are a lot of benefits to doing so but most importantly it allows you to granularly control the access to the plugins intentions. 
-For example if you were writing a plugin that made a web request to do something with the data it presents  you don't want to give everyone access to this, as they can just hammer 
-it with a macro or do nefarious things. See documentation around Umod in the links above to get a good feel for best practices. 
+Note the Permissions I setup on some of the commands above. It's important when developing plugins that if you're giving a user or group access to a specific command or 
+functionality of the plugin that you setup permissions for this. There are a lot of benefits to doing so but most importantly it allows you to granularly control the access to the 
+plugins intentions. For example if you were writing a plugin that made a web request to do something with the data it presents  you don't want to give everyone access to this, as 
+they can just hammer it with a macro or do nefarious things. See documentation around Umod in the links above to get a good feel for best practices. 
 
 ## Creating Rust plugin Assemblies for Extensions
 
