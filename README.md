@@ -19,14 +19,20 @@ See the configuration `settings.json` file under configuration in this repositor
 
 ![VSCode Extensions](images/extensions.png)
 
+These are the VSCode Extensions I use.
+
 ## Anatomy of a Rust Plugin project
 I use Visual Studio Code on OSX and Linux with dotnet and msbuild; See the reference links above. 
 
 ![Example .csproj file](images/example-csproj.png)
 
+This is an example `.csproj` file that you'll need to reference server and umod assemblies. 
+
 I recommend downloading all of the Oxide/UMOD assemblies into a central location and symlinking it into your project directory. 
 
 ![Example Directory Structure](images/directory-structure.png)
+
+This is what your directory structure should ultimately look like before shipping a plugin. 
 
 Don't forget to include a .gitignore and make sure to ignore the libs directory for the assemblies you've symlinked. Follow the guide to spinning up a rust server and you can take 
 all of the assemblies provided in RustDedicated_Data/Managed and drop them *FIRST* into your centralized assembly location. Once you've done that, you can then extract the UMOD 
