@@ -1,0 +1,17 @@
+{
+    "window.zoomLevel": 0,
+    "explorer.confirmDelete": false,
+    "files.autoSave": "onFocusChange",
+    "editor.fontFamily": "Fira Mono, Menlo, Monaco, 'Courier New', monospace",
+    "terminal.integrated.fontFamily": "Fira Mono For Powerline",
+    "csharp.referencesCodeLens.enabled": false,
+    "files.eol": "\n",
+    "editor.formatOnSave": true,
+    "html.format.wrapLineLength": 80,
+    "editor.rulers": [
+        180
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.shellArgs.windows": null,
+    "editor.foldingHighlight": false
+}
