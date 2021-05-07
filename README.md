@@ -13,6 +13,8 @@ Tool or Guide  | Purpose
 [MSBuild (X-Platform)](https://github.com/dotnet/msbuild) | MSBuild for building your dotnet projects.
 [OmniSharp (VSCode)](https://github.com/OmniSharp/omnisharp-vscode) | JIT compiler and Intellisense for VSCode
 [Running a Rust Server](https://www.rustafied.com/how-to-host-a-rust-server-in-linux) | Guide to running a Rust server in Linux. 
+[Example Rust Plugin](https://github.com/kwamaking/AntiCodeRaid) | A small Rust plugin example written by me. 
+[Example Rust Extension](https://github.com/kwamaking/AutoKit) | A Rust extension written by me. This is mostly useless on it's own without implementation details. 
 
 ## Visual Studio Setup and Extensions
 See the configuration `settings.json` file under configuration in this repository. 
